@@ -1,13 +1,13 @@
 # Config
- - Title: A conflict in your team
+ - Title: Who to ask to take an extra shift?
  - Image: http://res.cloudinary.com/triggerz/image/upload/v1513594352/Billede1_ls6myi.png
 
 # Description
 
-Description goes here...
+There is a flu going round, and you just received a message that Joan will not be coming in tomorrow morning. If you cannot find a replacement, the monthly production targets are at risk of not being met, as the lack of hands is likely to slow down the production. But: You have already asked around, and no-one wants to take the shift. There is no way around it: You have to go back and ask one who have already turned you down the first time you asked. Who will you contact next?
 
 # Choice
-Text for the first available choice goes here..
+Lilly? She is always very helpful. However, when you her asked the first time, she replied that she had already taken on two extra shifts in the past 3 weeks, so she did not want to take another one, but you have a feeling that you could talk her into it.
 
 # Variables
  - Resources: -1
@@ -16,13 +16,13 @@ Text for the first available choice goes here..
  - Total: round(((Engagement * Output) / 100) - (100 - Resources))
 
 # Feedback
-Feedback for selecting the first choice goes here..
+You probably picked Lilly because you sensed that she would save yes, and that would solve your problem. The problem is that you often end up asking the same few people. And that make your most flexible people feel misused. Good that you did not pick to give up. That option must be reserved to cases where there are really no more options available. So - all in all: A good choice - though such situations are never fun. But next time, ask Jonas - so it's not always Lilly that solves the problem.
 
 # Outcome
-Outcome by selecting the first choice goes here..
+X
 
 # Choice
-Second choice text...
+Jonas? When you him asked the first time, he really wanted to help, but couldn't because he had promised to drive his son to the dentist tomorrow.
 
 # Variables
  - Resources: -1
@@ -31,15 +31,13 @@ Second choice text...
  - Total: round(((Engagement * Output) / 100) - (100 - Resources))
 
 # Feedback
-Feedback for choosing second choice
-Notice that it can be multiple lines
-
+Many would have asked Lilly first, because they sensed that she would save yes, and that would solve your problem. As you know, the problem is that you often end up asking the same few people. And that make your most flexible people feel misused. So you decided to try with Jonas, which was a good call (maybe someone else could have taken the trip to the dentist?)
 
 # Outcome
-Outcome from choosing the second option
+X
 
 # Choice
-Third choice text
+No-one? Though it's likely to cost a lower output tomorrow, this is what happens from time to time.
 
 # Variables
  - Resources: -3
@@ -48,24 +46,8 @@ Third choice text
  - Total: round(((Engagement * Output) / 100) - (100 - Resources))
 
 # Feedback
-Third choice feedback
+You gave up too early! That option must be reserved to cases where there are really no more options available.
 
 # Outcome
-Third choice outcome
-
-
-# Choice
-Fourth choice text
-
-# Variables
- - Resources: +0
- - Engagement: -3
- - Output: -3
- - Total: round(((Engagement * Output) / 100) - (100 - Resources))
-
-# Feedback
-Fourth option feedback
-
-# Outcome
-Fourth option outcome
+X
 
