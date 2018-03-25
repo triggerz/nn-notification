@@ -1,6 +1,6 @@
 # Config
  - Title: Who to ask to take an extra shift?
- - Image: http://res.cloudinary.com/dertn65o7/image/upload/v1521489942/andreas-klassen-401337-unsplash.jpg
+ - Image: http://res.cloudinary.com/dertn65o7/image/upload/v1522013776/dilemma_who_to_ask_extra_shift.jpg
 
 # Description
 
